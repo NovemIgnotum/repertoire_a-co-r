@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Repertoire A-CO-R</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="centered-title">
+      <h1>Bienvenue dans le repertoire A-CO-R</h1>
+    </div>
+    <div class="centered-input">
+      <form id="formAjout">
+          <input type="text" id="prenom" placeholder="Pr&eacute;nom"><br>
+          <input type="text" id="nom" placeholder="Nom"><br>
+          <input type="text" pattern="[0-9]*" id="num"   placeholder="Num&eacute;ro de t&eacute;l&eacute;phone"><br>
+          <br><br>
+          <input type="button" onclick="ajoutContact('titre_tableau','formAjout')" value=" + Ajouter un Contact">
+      </form>
+    </div>
+    <br><br>
+    <table id="titre_tableau" class="centered-table">
+      <tr>
+        <th class="fixed-cell">Pr&eacute;nom</th>
+        <th class="fixed-cell">Nom</th>
+        <th class="fixed-cell">Num&eacute;ro de t&eacute;l&eacute;phone</th>
+        <th class="fixed-cell">Suppression</th>
+      </tr>
+    </table>
+    <script src="app.js"></script>
+  </body>
+</html>

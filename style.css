@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  background: linear-gradient(to top right, #4b9949,#a6d5a8);
+}
+
+.centered-title {
+  text-align: center;
+  margin-top: 5cm;
+}
+
+.centered-input {
+ text-align: center;
+}
+
+.centered-array {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 10%;
+}
+
+input[type="button"] {
+  font-size: 16px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
+  border: none;
+  border-radius: 10px;
+}
+
+input[type="button"]:hover {
+  cursor: pointer;
+}
+  
+table {
+  text-align: center;
+  border-collapse: collapse;
+  }
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+ }
+
+ .centered-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+th.fixed-cell {
+   width: 250px;
+   text-align: left;
+}
